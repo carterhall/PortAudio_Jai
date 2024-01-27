@@ -1,0 +1,10 @@
+portaudio_src/*
+build_*/*
+
+*.DS_Store
+*.swp
+*.build
+*.exe
+*.pdb
+*.out
+*.dSYM

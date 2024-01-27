@@ -1,6 +1,6 @@
 # PortAudio module for Jai
 
-This repo is used to build PortAudio and generate Jai bindings for it.
+This repo is used to build PortAudio and generate Jai bindings for it. The actual Jai module, suitable for copying elsewhere, is the `PortAudio/` subdirectory.
 
 This is all kind of a pain. We could ship prebuilt PortAudio binaries, but as I understand it, we can't ship it with ASIO support, because of Steinberg's license agreement.
 
@@ -42,4 +42,4 @@ At this point, you're finally ready to `cd` into the PortAudio directory and run
 
 ### Testing PortAudio from Jai
 
-
+Once you have generated the bindings, you should be able to compile `PortAudio/test/test_portaudio.jai` and verify that you can get the PortAudio version.
